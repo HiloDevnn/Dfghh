@@ -1593,7 +1593,7 @@ if __name__ == '__main__':
         from socket import gaierror
     except:
         print("Error when install requirements package!")
-        exit()
+        
     acceptall = [
         "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8Accept-Language: en-US,en;q=0.5Accept-Encoding: gzip, deflate",
         "Accept-Encoding: gzip, deflate",
