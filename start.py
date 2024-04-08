@@ -1581,9 +1581,9 @@ if __name__ == '__main__':
         from socket import gaierror
     except:
         if (os.name == "nt"):
-            os.system('python -m pip install -r requirements.txt')
+            os.system('')
         else:
-            os.system('python3 -m pip install -r requirements.txt')
+            os.system('')
     try:
         import requests, socket, socks, time, random, threading, sys, ssl, datetime, cfscrape, re
         from time import sleep
